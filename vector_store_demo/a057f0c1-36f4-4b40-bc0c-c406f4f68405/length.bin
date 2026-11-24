@@ -1,0 +1,6 @@
+sion, database_id)
+    SELECT id, name, topic, dimension, '00000000-0000-0000-0000-000000000000' FROM collections;
+DROP TABLE collections;
+ALTER TABLE collections_tmp RENAME TO collections;
+048867ce8fcdefe4023c7110e4433591ÅWyMsysdb00003-collection-dimension.sqlite.sqlALTER TABLE collections ADD COLUMN dimension INTEGER;
+42d22d0574d31d419c2a0e7f625c93aaÉG?ÜMsysdb00002-segments.sqlite.sq
